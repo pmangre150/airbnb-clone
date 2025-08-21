@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "Airbnb Clone API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Listings",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5001/api/listings"
+      }
+    },
+    {
+      "name": "Create Listing",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"Test Home\", \"city\": \"Navi Mumbai\", \"pricePerNight\": 999}"
+        },
+        "url": "http://localhost:5001/api/listings"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "airbnb-clone-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"(placeholder) add tests under /tests\" && exit 0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^7.8.1",
+    "morgan": "^1.10.0"
+  }
+}
